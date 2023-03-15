@@ -33,7 +33,7 @@
     flex-grow: 1;
 }
 
-/* !Warning: CSS Cascade Rules doesnt allow changes down the cascade */
+/* !Warning: CSS Cascade Rules doesnt allow changes down the cascade of this rule (below) */
 .site-content > section {
     padding-left: 200px;
     padding-right: 200px;
@@ -89,6 +89,7 @@
     font-size: 36px;
     font-weight: bolder;
 }
+
 .cards-container{
     display: flex;
     gap: 30px
@@ -100,6 +101,7 @@
     align-items: center;
     width: 150px;
 }
+
 .card > img{
     width: 150px;
     height: 150px;
@@ -109,6 +111,24 @@
 
 .card > p {
     text-align: center;
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 40px 0px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote-author{
+    align-self: flex-end;
 }
 
 
