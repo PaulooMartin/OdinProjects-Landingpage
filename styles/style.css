@@ -92,7 +92,7 @@
 
 .cards-container{
     display: flex;
-    gap: 30px
+    gap: 50px
 }
 
 .card {
@@ -131,6 +131,48 @@
     align-self: flex-end;
 }
 
+.cta-section{
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 60px 200px;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
+
+.cta-text-contain{
+    margin-right: auto;
+}
+
+.cta-boldtxt{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0px;
+}
+
+.cta-descrip{
+    color: white;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.cta-btn{
+    border: 3px white solid;
+    border-radius: 10px;
+    padding: 10px 40px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
 
 .site-footer{
     display: flex;
